@@ -1,8 +1,8 @@
-public class CardClass {
+public class Card {
     private String rank;
     private String suit;
     private int pointValue;
-    public CardClass(String rank, String suit, int pointValue)
+    public Card(String rank, String suit, int pointValue)
     {
         this.rank = rank;
         this.suit = suit;
@@ -20,7 +20,7 @@ public class CardClass {
     public String getRank() {
         return rank;
     }
-    public boolean equals(CardClass otherCard)
+    public boolean equals(Card otherCard)
     {
         if(pointValue == otherCard.pointValue)
         {
